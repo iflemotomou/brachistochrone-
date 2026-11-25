@@ -52,8 +52,5 @@ python extract_profiles.py Brachistochrone_run.stl profiles.csv
 ## Μοντέλο 3D εκτύπωσης
 
 Το αρχείο STL βασίζεται στο μοντέλο «Brachistochrone curve run» (MakerWorld).
-Δημιουργός και άδεια: **[συμπλήρωσε από τη σελίδα του μοντέλου]**.
+https://makerworld.com/en/models/2402300-brachistochrone-curve-run
 
-## Άδεια
-
-Ο κώδικας διατίθεται με την άδεια MIT (βλ. `LICENSE`).
