@@ -12,18 +12,18 @@ Bernoulli στην πειραματική διερεύνηση» (Π. Καφετ
 
 | Αρχείο | Περιγραφή |
 |---|---|
-| `brachistochrone_w.button.ino` | Χρονόμετρο: το κουμπί ξεκινά το `micros()`, κάθε αισθητήρας (ακροδέκτες 7, 6, 5 = ευθεία, κυκλοειδής, πολυωνυμική) καταγράφει την πρώτη ανίχνευση. |
+| `brachistochrone_w.button.ino` | Χρονόμετρο Arduino: το κουμπί ξεκινά το `micros()`, κάθε αισθητήρας (ακροδέκτες 7, 6, 5 = ευθεία, κυκλοειδής, πολυωνυμική) καταγράφει την πρώτη ανίχνευση. |
 | `measurements.csv` | Οι 18 δοκιμές: χρόνοι άφιξης σε ms από την εκκίνηση του χρονομέτρου, χωρίς καμία διόρθωση. |
 | `extract_profiles.py` | Εξαγωγή των προφίλ z(y) των τριών αυλακιών από το STL. |
-| Αποτέλεσμα της εξαγωγής: `y_mm, z_straight_mm, z_cycloid_mm, z_polynomial_mm`. |
+| `profiles.csv` | Αποτέλεσμα της εξαγωγής: `y_mm, z_straight_mm, z_cycloid_mm, z_polynomial_mm`. |
 | `model_times.py` | Αριθμητικός υπολογισμός των θεωρητικών χρόνων (Tε, Tκ, Tπ). |
 | `statistics_analysis.py` | Μέσες τιμές, SEM, διαστήματα εμπιστοσύνης 95%, έλεγχος προσήμου, συσχέτιση. |
+| `brachistochrone v.1.jpg`, `brachistochrone v.2.jpg`, `brachstochrone v.2.mp4` | Φωτογραφίες και βίντεο της διάταξης. |
 
 ## Εκτέλεση
 
 ```
 pip install -r requirements.txt
-cd analysis
 python model_times.py              # Tε ≈ 365, Tκ ≈ 299, Tπ ≈ 305 ms  (z0 = 147,1 mm)
 python statistics_analysis.py      # N = 18: tε−tκ = 66,6 ± 2,4 ms κ.λπ.
 ```
@@ -31,7 +31,6 @@ python statistics_analysis.py      # N = 18: tε−tκ = 66,6 ± 2,4 ms κ.λπ.
 Για να ξαναβγούν τα προφίλ από το STL (το αρχείο δεν περιλαμβάνεται εδώ, βλ. παρακάτω):
 
 ```
-cd profiles
 python extract_profiles.py Brachistochrone_run.stl profiles.csv
 ```
 
@@ -53,5 +52,8 @@ python extract_profiles.py Brachistochrone_run.stl profiles.csv
 ## Μοντέλο 3D εκτύπωσης
 
 Το αρχείο STL βασίζεται στο μοντέλο «Brachistochrone curve run» (MakerWorld).
-https://makerworld.com/en/models/2402300 
+Δημιουργός και άδεια: **[συμπλήρωσε από τη σελίδα του μοντέλου]**.
 
+## Άδεια
+
+Ο κώδικας διατίθεται με την άδεια MIT (βλ. `LICENSE`).

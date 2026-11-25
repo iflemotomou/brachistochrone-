@@ -1,12 +1,12 @@
 """Στατιστική ανάλυση των 18 δοκιμών (διαφορές χρόνων άφιξης).
 
-Χρήση:  python statistics_analysis.py ../data/measurements.csv
+Χρήση:  python statistics_analysis.py measurements.csv
 """
 import sys
 import numpy as np
 from scipy import stats
 
-A = np.genfromtxt(sys.argv[1] if len(sys.argv) > 1 else "../data/measurements.csv",
+A = np.genfromtxt(sys.argv[1] if len(sys.argv) > 1 else "measurements.csv",
                   delimiter=",", skip_header=1)
 trial, tE, tK, tP = A.T
 n = len(trial)

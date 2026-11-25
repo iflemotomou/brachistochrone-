@@ -1,6 +1,6 @@
 """Αριθμητικός υπολογισμός του χρόνου κύλισης συμπαγούς σφαίρας σε κάθε τροχιά.
 
-Χρήση:  python model_times.py ../profiles/profiles.csv
+Χρήση:  python model_times.py profiles.csv
 
 Βήματα:
  1. Προφίλ πυθμένα z(y) από το STL· φίλτρο διαμέσου (5 σημείων) για μεμονωμένα
@@ -18,7 +18,7 @@ from scipy.signal import medfilt
 from scipy.interpolate import PchipInterpolator
 
 g, k, r = 9.81, 1.4, 7.5
-P = np.genfromtxt(sys.argv[1] if len(sys.argv) > 1 else "../profiles/profiles.csv",
+P = np.genfromtxt(sys.argv[1] if len(sys.argv) > 1 else "profiles.csv",
                   delimiter=",", skip_header=1)
 ys = P[:, 0]
 COL = {"straight": 1, "cycloid": 2, "polynomial": 3}
