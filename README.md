@@ -56,6 +56,14 @@ python extract_profiles.py Brachistochrone_run.stl profiles.csv
 Το αρχείο STL βασίζεται στο μοντέλο «Brachistochrone curve run» (MakerWorld).
 https://makerworld.com/en/models/2402300
 
+## Άδεια χρήσης
+
+- **Κώδικας (`.py`, `.ino`):** Διατίθεται υπό την άδεια [MIT](https://opensource.org/licenses/MIT).
+- **Δεδομένα, τεκμηρίωση και οπτικοακουστικό υλικό (`.csv`, `.jpg`, `.mp4`, `README.md`):** Διατίθενται υπό την άδεια [Creative Commons Attribution 4.0 International (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/).
+Θέλετε να σας ετοιμάσω και το κείμενο για το αρχείο LICENSE (MIT) ώστε να το προσθέσετε στον κεντρικό φάκελο του αποθετηρίου σας;
+Οι απαντήσεις AI μπορεί να περιλαμβάνουν λάθη. Μάθετε περισσότερα
+
+
 ## Άδεια Χρήσης
 [![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
 
