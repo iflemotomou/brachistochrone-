@@ -62,10 +62,5 @@ https://makerworld.com/en/models/2402300
 
 - **Κώδικας** (`*.py`, `*.ino`): άδεια MIT, βλ. `LICENSE`.
 - **Δεδομένα, φωτογραφίες, βίντεο και κείμενο**: Creative Commons Αναφορά Δημιουργού 4.0 (CC BY 4.0).
-- **Μοντέλο STL**: δεν περιλαμβάνεται. Βασίζεται στο «Brachistochrone curve run» (MakerWorld) και ισχύει η δική του άδεια, όχι οι παραπάνω.
-
-
-## Άδεια Χρήσης
-[![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
-
+- **Μοντέλο STL**: δεν περιλαμβάνεται. Βασίζεται στο «Brachistochrone curve run» (MakerWorld) και ισχύει η δική του άδεια.
 
