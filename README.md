@@ -1,3 +1,5 @@
+[![License: MIT](https://shields.io)](https://opensource.org)
+[![License: CC BY 4.0](https://shields.io)](https://creativecommons.org)
 # Το πρόβλημα του Βραχυστόχρονου – κώδικας και δεδομένα
 
 Συνοδευτικό υλικό της μαθητικής εργασίας «Το πρόβλημα του Βραχυστόχρονου: από τη θεωρία του
