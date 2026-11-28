@@ -1,5 +1,7 @@
-[![License: MIT](https://shields.io)](https://opensource.org)
-[![License: CC BY 4.0](https://shields.io)](https://creativecommons.org)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![License: CC BY 4.0](https://img.shields.io/badge/License-CC_BY_4.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
+
+
 # Το πρόβλημα του Βραχυστόχρονου – κώδικας και δεδομένα
 
 Συνοδευτικό υλικό της μαθητικής εργασίας «Το πρόβλημα του Βραχυστόχρονου: από τη θεωρία του
@@ -58,9 +60,9 @@ https://makerworld.com/en/models/2402300
 
 ## Άδεια χρήσης
 
-- **Κώδικας (`.py`, `.ino`):** Διατίθεται υπό την άδεια [MIT](https://opensource.org/licenses/MIT).
-- **Δεδομένα, τεκμηρίωση και οπτικοακουστικό υλικό (`.csv`, `.jpg`, `.mp4`, `README.md`):** Διατίθενται υπό την άδεια [Creative Commons Attribution 4.0 International (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/).
-
+- **Κώδικας** (`*.py`, `*.ino`): άδεια MIT, βλ. `LICENSE`.
+- **Δεδομένα, φωτογραφίες, βίντεο και κείμενο**: Creative Commons Αναφορά Δημιουργού 4.0 (CC BY 4.0).
+- **Μοντέλο STL**: δεν περιλαμβάνεται. Βασίζεται στο «Brachistochrone curve run» (MakerWorld) και ισχύει η δική του άδεια, όχι οι παραπάνω.
 
 
 ## Άδεια Χρήσης
