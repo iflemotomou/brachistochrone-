@@ -54,3 +54,9 @@ python extract_profiles.py Brachistochrone_run.stl profiles.csv
 Το αρχείο STL βασίζεται στο μοντέλο «Brachistochrone curve run» (MakerWorld).
 https://makerworld.com/en/models/2402300
 
+## Άδεια Χρήσης
+[![CC BY 4.0](https://creativecommons.org)](https://creativecommons.org)
+
+* **Δεδομένα, φωτογραφίες, βίντεο και κείμενα** (`measurements.csv`, `profiles.csv`, `.jpg`, `.mp4`, `README.md`): Διατίθενται υπό την άδεια [Creative Commons Αναφορά Δημιουργού 4.0 Διεθνές (CC BY 4.0)](https://creativecommons.org).
+* **Πηγαίος κώδικας** (`brachistochrone_w.button.ino`, `extract_profiles.py`, `model_times.py`, `statistics_analysis.py`): Διατίθεται υπό την άδεια **MIT** (βλ. αρχείο [LICENSE](LICENSE)).
+
